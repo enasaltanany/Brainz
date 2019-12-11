@@ -1,0 +1,93 @@
+.login{
+    // background: rgb(43,168,175);
+    // background: linear-gradient(90deg, rgba(43,168,175,1) 0%, rgba(48,134,161,1) 35%, rgba(56,114,154,1) 100%);
+    // background-image:url('../../assets/photoOne.jpg') ;
+    // background-repeat: no-repeat;
+    background: rgb(255,84,142);
+	background: linear-gradient(90deg, rgba(255,84,142,1) 0%, rgba(255,147,118,1) 62%, rgba(255,199,104,1) 100%);
+    background-size: cover;
+    z-index: 122;
+    display: block;
+    width: 100%;
+    position: fixed;
+    height: 100%;
+    background-color: #eee;
+    overflow: auto;   
+    // padding-top: 5%;
+    // background:
+    // linear-gradient(135deg, #2ba8af 23px, #3086a1 20px, #3086a1 25px, transparent 12px, transparent 68px, #3086a1 0px, #3086a1 0px, transparent 69px), linear-gradient(225deg, #2ba8af 0px, #3086a1 0px, #3086a1 24px, transparent 0px, transparent 83px, #3086a1 61px, #3086a1 69px, transparent 0) 0 64px ;
+// linear-gradient(135deg, rgba(43,168,175,1) 21px, rgba(48,134,161,1) 22px, rgba(48,134,161,1) 24px, transparent 24px, transparent 67px,rgba(48,134,161,1)67px,rgba(48,134,161,1)69px, transparent 69px),
+// linear-gradient(225deg, rgba(43,168,175,1) 21px, rgba(48,134,161,1) 22px, rgba(48,134,161,1)24px, transparent 24px, transparent 67px, rgba(48,134,161,1) 67px,rgba(48,134,161,1) 69px, transparent 69px)0 64px;
+// background-size: 64px 128px;
+}
+.wrapper {
+    padding-top: 13px;
+    opacity: 0.9;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    min-height: calc(100% - (1.75rem * 2));
+    width: 100%;
+    max-width: 600px;
+
+    .form-signin {
+        box-shadow: 0 7px 30px rgba(62, 9, 11, 0.3);
+        height:583px;
+        border-radius: 12px;
+        text-align: center;
+        // font-weight: 700 !important;   
+        width: 64%;
+        padding: 15% 9%;;
+        margin: 0 auto;
+        background-color: #fff !important;
+        border: 1px solid rgba(0,0,0,0.1);  
+    
+        .form-signin-heading{
+            margin-bottom: 12%;
+        }
+        .form-control {
+            position: relative;
+            font-size: 16px;
+            padding: 10px;
+    
+            &:focus {
+                z-index: 2;
+            }
+        }
+    
+        .user-name{
+            cursor: pointer;
+            margin-bottom: 9%;
+            border-radius: 10px;
+        }
+    
+        .password {
+            cursor: pointer;
+            margin-bottom: 9%;
+            border-radius: 10px;
+        }
+
+        .login-button{
+            background: rgb(255,84,142);
+            background: linear-gradient(90deg, rgba(255,84,142,1) 0%, rgba(255,147,118,1) 62%, rgba(255,199,104,1) 100%);
+            font-size: 15px;
+            line-height: 1.3333333;
+            border-radius: 19px;
+            width: 135px;
+            height: 34px;
+        }
+          
+        .contact-us{
+            position: relative;
+            text-align: center;
+            top: 213px;
+        }
+        .contact-us-link{
+            cursor: pointer;
+        }
+    }
+}
+
+

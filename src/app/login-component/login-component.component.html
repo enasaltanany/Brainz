@@ -1,0 +1,28 @@
+  <div class="login container-fluid">
+    <div class="wrapper">
+        <form  (submit)="submitForm($event, loginForm.value)"[formGroup]="loginForm" class="form-signin">       
+            <h2 class="form-signin-heading">Sign In</h2>
+            
+            <input formControlName = "username" type="text" class=" form-control user-name" name="username" placeholder="Email Address" required="" autofocus="" />
+            
+            <input formControlName ="password" type="password" class="password form-control" name="password" placeholder="Password"  required=""/>      
+            
+            <button class="login-button btn-primary btn" type="submit">
+                Login
+            </button>   
+            <div class= "social-media">                   
+                    <i class="fab fa-facebook">
+                        <!-- FaceBook -->
+                    </i>
+            </div>
+            <div class="contact-us">
+                <span>
+                    Don't have account? Please contact
+                </span>
+                <a class="contact-us-link" href="https://www.facebook.com/brainztraining/">
+                    Here
+                </a>
+            </div>
+        </form>
+    </div>
+   </div>
